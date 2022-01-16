@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Cinzel" sans-serif;
+  color: #444;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 4.8rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/************************/
+/* NAVAGATION SECTION */
+/************************/
+
+.header {
+  max-width: 140rem;
+  padding: 0 3.2rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 4.8rem;
+}
+
+.btn {
+  font-size: 3.2rem;
+  font-weight: 500;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.About {
+  background-color: #e9ecef;
+  font-size: 2.4rem;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+/************************/
+/* HERO SECTION */
+/************************/
+
+.hero-section {
+  padding: 9.6rem 0;
+}
+
+.hero-text-box {
+  width: 85%;
+}
+
+.first-heading {
+  font-size: 4rem;
+  font-weight: 400;
+  margin-bottom: 4.8rem;
+  line-height: 1.2;
+  font-family: "cinzil";
+  color: #111;
+}
+
+.texts-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.hero-hext {
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: #777;
+}
+
+.hero-img {
+  width: 110%;
+  height: 100%;
+}
+
+.hero-image-box::after {
+  content: "";
+  display: block;
+  background-color: #e9ecef;
+  padding: 27rem;
+  /* padding-bottom: 27rem; */
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+/************************/
+/* second SECTION */
+/************************/
+
+.second-section {
+  padding: 30rem 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 2.4rem;
+}
+
+.sec-text-box {
+  width: 100%;
+  align-self: center;
+}
+
+.img-high {
+  width: 85%;
+  height: 100%;
+  transform: scale(1.4);
+}
+
+.img-short {
+  width: 100%;
+}
+
+.second-heading {
+  font-size: 4.8rem;
+  font-weight: 500;
+  line-height: 1.1;
+  font-family: "cinzil";
+  color: #111;
+}
+
+.second-texts {
+  margin-top: 7rem;
+  /* margin-bottom: 6.4rem; */
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.second-text {
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: #777;
+}
+
+.icon-btns {
+  margin-top: 9.6rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.right {
+  margin-left: 3.2rem;
+}
+
+.icon-btn {
+  /* height: 4rem;
+  width: 4rem; */
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.arrow-btn {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.color {
+  color: #777;
+}
+
+.big {
+  height: 2.6rem;
+  width: 2.6rem;
+  color: #111;
+}
+
+/************************/
+/* second SECTION */
+/************************/
+
+.third-section {
+  padding: 10rem 0;
+}
+
+.third-text-box {
+  width: 95%;
+  align-self: center;
+}
+
+.third-text {
+  font-size: 2.4rem;
+  color: #555;
+  line-height: 1.5;
+  margin-top: 4.8rem;
+}
+
+.goals-img {
+  background-color: #ffe8cc;
+  height: 100%;
+  width: 100%;
+  padding: 11rem 2.4rem 11rem 2.4rem;
+}
+
+.third-img-box {
+  position: relative;
+}
+
+.third-img-box::before {
+  content: "";
+  padding: 30rem;
+  padding-bottom: 20rem;
+  background-color: #fff4e6;
+  position: absolute;
+  top: -6rem;
+  right: -7rem;
+  z-index: -1;
+}
+
+.third-img-box::after {
+  content: "";
+  padding: 8rem;
+  background-color: #f1f3f5;
+  position: absolute;
+  bottom: -7rem;
+  left: -7rem;
+  z-index: -2;
+}
+
+/************************/
+/* PRICING SECTION */
+/************************/
+
+.pricing-section {
+  padding: 30rem 0 10rem 0;
+}
+
+.pricing-heading {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.pricing-01 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f1f3f5;
+  padding: 6.4rem 3.2rem 6.4rem 3.2rem;
+}
+
+.price-title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 4.8rem;
+}
+
+.price-discription {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #555;
+  font-family: sans-serif;
+}
+
+.price-150 {
+  font-size: 6.4rem;
+  font-weight: bold;
+  color: #111;
+  font-family: sans-serif;
+}
+
+.price-150 span {
+  font-size: 3.2rem;
+  color: #666;
+}
+
+.access-btn {
+  background-color: #444;
+  color: #fff;
+  padding: 1.6rem 3.8rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.line01 {
+  border-top: 3px solid #aaa;
+  background-color: #f1f3f5;
+  padding-bottom: 2.4rem;
+}
+
+.subheading-price {
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 1.2rem 0;
+  color: #333;
+  font-family: sans-serif;
+  margin-bottom: 1.8rem;
+}
+
+.price-include-01 {
+  display: flex;
+  gap: 1.8rem;
+}
+
+.include-01-discription {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #666;
+  font-family: sans-serif;
+}
+
+.check-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.pricing-second-sectuion {
+  margin-top: 4.8rem;
+  padding: 0 !important;
+}
+
+.second-btn-price {
+  padding: 1.6rem 5.8rem;
+  margin-top: 1.2rem;
+}
+
+/************************/
+/* FOOTER SECTION */
+/************************/
+
+.footer-section {
+  padding: 12.8rem 0;
+}
+
+.adress-section {
+  display: flex;
+  justify-content: space-between;
+}
