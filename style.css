@@ -357,10 +357,10 @@ body {
 }
 
 .heading-footer {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   font-family: sans-serif;
   color: #777;
-  margin-bottom: 6.4rem;
+  margin-bottom: 8.6rem;
 }
 
 .tel-mail {
@@ -383,7 +383,7 @@ body {
 }
 
 .link-footer {
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   font-family: sans-serif;
   color: #777;
   text-decoration: none;
@@ -394,7 +394,7 @@ body {
 }
 
 .phone-text {
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   font-family: sans-serif;
   color: #777;
   margin-top: 0.8rem;
@@ -403,11 +403,13 @@ body {
 .footer-icon {
   height: 4.8rem;
   width: 4.8rem;
-  color: #777;
+  color: #999;
 }
 
 .end-section {
-  padding: 9.6rem 0;
+  max-width: 140rem;
+  margin: 9.6rem auto;
+  padding: 0 3.2rem;
   display: flex;
   justify-content: space-between;
 }
