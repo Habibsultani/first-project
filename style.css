@@ -36,7 +36,7 @@ body {
 
 .header {
   max-width: 140rem;
-  padding: 0 3.2rem;
+  /* padding: 0 3.2rem; */
 }
 
 .nav {
