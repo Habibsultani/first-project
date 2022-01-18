@@ -67,6 +67,7 @@ body {
 
 .hero-section {
   padding: 9.6rem 3.2rem;
+  position: relative;
 }
 
 .hero-text-box {
@@ -95,7 +96,7 @@ body {
 }
 
 .hero-img {
-  width: 110%;
+  width: 100%;
   height: 100%;
 }
 
@@ -106,8 +107,8 @@ body {
   padding: 27rem;
   /* padding-bottom: 27rem; */
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -9.6rem;
+  right: -4.8rem;
   z-index: -1;
 }
 
