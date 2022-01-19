@@ -1,9 +1,72 @@
 /************************/
-/* BELOW (1296px) descktop */
+/* BELOW (1392px) descktop */
 /************************/
 
-@media (max-widht: 81em) {
+@media (max-width: 87em) {
   html {
     font-size: 52%;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 48%;
+  }
+}
+
+@media (max-width: 67em) {
+  html {
+    font-size: 42%;
+  }
+}
+
+@media (max-width: 62em) {
+  html {
+    font-size: 39%;
+  }
+}
+
+@media (max-width: 53em) {
+  html {
+    font-size: 39%;
+  }
+
+  .grid--2-cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .hero-text-box {
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero-image-box::after {
+    display: none;
+  }
+
+  .About {
+    background-color: #fff;
+  }
+
+  .second-section {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+
+  /* .img-short {
+    grid-row: 1 / 2;
+    grid-column: 2;
+  }
+
+  .img-high {
+    display: none;
+  } */
+
+  .third-text-box {
+    text-align: center;
+  }
+
+  .third-img-box::after,
+  .third-img-box::before {
+    display: none;
   }
 }
