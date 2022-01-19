@@ -8,7 +8,7 @@
   }
 }
 /************************/
-/* BELOW (1392px) descktop */
+/* BELOW (1200px) descktop */
 /************************/
 
 @media (max-width: 75em) {
@@ -18,7 +18,7 @@
 }
 
 /************************/
-/* BELOW (1392px) descktop */
+/* BELOW (1072px) descktop */
 /************************/
 @media (max-width: 67em) {
   html {
@@ -27,7 +27,7 @@
 }
 
 /************************/
-/* BELOW (1392px) descktop */
+/* BELOW (992px) descktop */
 /************************/
 
 @media (max-width: 62em) {
@@ -37,7 +37,7 @@
 }
 
 /************************/
-/* BELOW (1392px) descktop */
+/* BELOW (848px) mobile & tablet */
 /************************/
 
 @media (max-width: 53em) {
