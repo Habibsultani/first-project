@@ -7,6 +7,9 @@
     font-size: 52%;
   }
 }
+/************************/
+/* BELOW (1392px) descktop */
+/************************/
 
 @media (max-width: 75em) {
   html {
@@ -14,17 +17,28 @@
   }
 }
 
+/************************/
+/* BELOW (1392px) descktop */
+/************************/
 @media (max-width: 67em) {
   html {
     font-size: 42%;
   }
 }
 
+/************************/
+/* BELOW (1392px) descktop */
+/************************/
+
 @media (max-width: 62em) {
   html {
     font-size: 39%;
   }
 }
+
+/************************/
+/* BELOW (1392px) descktop */
+/************************/
 
 @media (max-width: 53em) {
   html {
