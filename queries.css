@@ -151,4 +151,10 @@
     height: 3.2rem;
     width: 3.2rem;
   }
+
+  .end-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
 }
