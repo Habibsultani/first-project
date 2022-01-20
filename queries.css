@@ -69,11 +69,11 @@
   /* .img-short {
     grid-row: 1 / 2;
     grid-column: 2;
-  }
+   */
 
   .img-high {
     display: none;
-  } */
+  }
 
   .third-text-box {
     text-align: center;
@@ -83,4 +83,11 @@
   .third-img-box::before {
     display: none;
   }
+}
+
+/************************/
+/* BELOW (657px) mobile */
+/************************/
+
+@media (max-width: 41em) {
 }
